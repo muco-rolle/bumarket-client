@@ -53,4 +53,4 @@ export const theme = {
     transitions: {
         card: "translate .18s,box-shadow .18s"
     }
-},
+};
