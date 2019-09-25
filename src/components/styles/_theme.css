@@ -1,0 +1,24 @@
+:root {
+    --primary: hsl(149, 100%, 45%);
+    --primaryLight: hsl(149, 100%, 55%);
+    --primarydark: hsl(149, 100%, 35%);
+
+    --grey: hsl(206, 11%, 45%);
+    --greyLight: hsl(206, 11%, 45%);
+    --greyDark: hsl(210, 15%, 24%);
+
+    --danger: hsl(338, 100%, 50%);
+    --dangerDark: hsl(338, 100%, 40%);
+
+    --success: hsl(159, 100%, 43%);
+    --successDark: hsl(159, 100%, 33%);
+
+    --info: hsl(187, 100%, 46%);
+    --infoDark: hsl(187, 100%, 36%);
+
+    --warning: hsl(359, 100%, 64%);
+    --warningDark: hsl(359, 100%, 54%);
+
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 5%);
+}
