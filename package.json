@@ -25,9 +25,11 @@
         "styled-system": "^5.1.2",
         "typeface-alegreya": "^0.0.69",
         "typeface-alegreya-sans": "^0.0.72",
+        "typeface-eb-garamond": "^0.0.72",
         "typeface-karla": "^0.0.72",
         "typeface-libre-baskerville": "^0.0.72",
         "typeface-pacifico": "^0.0.76",
+        "typeface-quicksand": "^0.0.71",
         "typeface-source-sans-pro": "^0.0.75",
         "url-loader": "^2.1.0"
     },

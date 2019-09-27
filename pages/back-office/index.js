@@ -6,7 +6,7 @@ const DashboardPage = () => {
     return (
         <div>
             <h1>Dashboard Page</h1>
-            <Button color="white" bg="primary" py="1.1rem" px="2.2rem" ml="4rem">primary</Button>
+            <Button color="primary">primary</Button>
 
         </div>
     );

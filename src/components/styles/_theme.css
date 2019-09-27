@@ -1,24 +1,51 @@
 :root {
-    --primary: hsl(149, 100%, 45%);
-    --primaryLight: hsl(149, 100%, 55%);
-    --primarydark: hsl(149, 100%, 35%);
+    --primary: hsl(150, 100%, 44%);
+    --primaryLight1: hsl(150, 78%, 54%);
+    --primaryLight2: hsl(150, 78%, 64%);
+    --primaryLight3: hsl(150, 77%, 74%);
+    --primaryLight4: hsl(150, 77%, 85%);
+    --primaryDark1: hsl(150, 100%, 36%);
+    --primaryDark2: hsl(150, 100%, 28%);
+    --primaryDark3: hsl(150, 100%, 20%);
+    --primaryDark4: hsl(150, 100%, 12%);
 
     --grey: hsl(206, 11%, 45%);
-    --greyLight: hsl(206, 11%, 45%);
-    --greyDark: hsl(210, 15%, 24%);
+    --greyLight1: hsl(206, 9%, 55%);
+    --greyLight2: hsl(206, 9%, 65%);
+    --greyLight3: hsl(207, 9%, 75%);
+    --greyLight4: hsl(206, 9%, 85%);
+    --greyDark1: hsl(207, 11%, 37%);
+    --greyDark2: hsl(206, 11%, 29%);
+    --greyDark3: hsl(207, 10%, 21%);
+    --greyDark4: hsl(206, 11%, 12%);
 
     --danger: hsl(338, 100%, 50%);
-    --dangerDark: hsl(338, 100%, 40%);
-
-    --success: hsl(159, 100%, 43%);
-    --successDark: hsl(159, 100%, 33%);
+    --dangerLight1: hsl(338, 100%, 59%);
+    --dangerLight2: hsl(338, 100%, 68%);
+    --dangerLight3: hsl(338, 100%, 77%);
+    --dangerLight4: hsl(339, 100%, 86%);
+    --dangerDark1: hsl(338, 100%, 41%);
+    --dangerDark2: hsl(338, 100%, 32%);
+    --dangerDark3: hsl(338, 100%, 23%);
+    --dangerDark4: hsl(338, 100%, 14%);
 
     --info: hsl(187, 100%, 46%);
-    --infoDark: hsl(187, 100%, 36%);
+    --infoLight1: hsl(187, 84%, 55%);
+    --infoLight2: hsl(187, 84%, 65%);
+    --infoLight3: hsl(187, 84%, 75%);
+    --infoLight4: hsl(188, 84%, 85%);
+    --infoDark1: hsl(187, 100%, 38%);
+    --infoDark2: hsl(187, 100%, 29%);
+    --infoDark3: hsl(187, 100%, 21%);
+    --infoDark4: hsl(187, 100%, 13%);
 
     --warning: hsl(359, 100%, 64%);
-    --warningDark: hsl(359, 100%, 54%);
-
-    --white: hsl(0, 0%, 100%);
-    --black: hsl(0, 0%, 5%);
+    --warningLight1: hsl(359, 100%, 70%);
+    --warningLight2: hsl(359, 100%, 77%);
+    --warningLight3: hsl(359, 100%, 84%);
+    --warningLight4: hsl(359, 100%, 90%);
+    --warningDark1: hsl(359, 62%, 53%);
+    --warningDark2: hsl(359, 56%, 41%);
+    --warningDark3: hsl(359, 56%, 29%);
+    --warningDark4: hsl(359, 56%, 18%);
 }

@@ -5079,6 +5079,11 @@ typeface-alegreya@^0.0.69:
   resolved "https://registry.yarnpkg.com/typeface-alegreya/-/typeface-alegreya-0.0.69.tgz#92d82f3e68360d5d5cee01be812f5aeb19ade8a7"
   integrity sha512-02wj0QZEaxnDH37ZX3fsCu6vlKdaH8f1bzJxuymXNCoEcN3tFKMLC9omAtx8G+EbChb1gm5Nw+9XmPIYzi93fA==
 
+typeface-eb-garamond@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-eb-garamond/-/typeface-eb-garamond-0.0.72.tgz#31effb6e2529f56cc9af65fe7733af0a044db951"
+  integrity sha512-S0WU5mM+DR/IbOU8/qPCt5PWQ6KLps5YUPAE4EHNipgzB4jftiTjSkUf+ayAFk50uwcAAQXSf1MHgJgdt4cRfw==
+
 typeface-karla@^0.0.72:
   version "0.0.72"
   resolved "https://registry.yarnpkg.com/typeface-karla/-/typeface-karla-0.0.72.tgz#b0eec7f2f13e638d274c0bac6bd0c82379c958e9"
@@ -5093,6 +5098,11 @@ typeface-pacifico@^0.0.76:
   version "0.0.76"
   resolved "https://registry.yarnpkg.com/typeface-pacifico/-/typeface-pacifico-0.0.76.tgz#668fafba82bb70f012d630b6296a7a39e84e742d"
   integrity sha512-yvFzkyKZaXKs0EkKrNU3B+M/cq5p2G5dSV3tKftVqNxRGm4uBpmceG2tLfrG5o1p6qklVAIascpbCrX0DAd6gg==
+
+typeface-quicksand@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-quicksand/-/typeface-quicksand-0.0.71.tgz#85157b7cc299b558dbeeea1a413217887685dd6b"
+  integrity sha512-MIVkJ+oQGx/YTjMn6rff+BVr/xDBctkgYCa85ch8vTpeqtoGF/ZoYHWOKJRBoeiYVsHGasVczb4NPe5gZQsjiQ==
 
 typeface-source-sans-pro@^0.0.75:
   version "0.0.75"
