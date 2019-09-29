@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { color, font } from "../../utils/helpers";
 
 export const GlobalStyles = createGlobalStyle`
     *, *::before, *::after {
@@ -14,8 +15,9 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
         line-height: 1.5;
-        color: ${({ theme }) => theme.colors.secondary};
-        font-family: ${({ theme }) => theme.fonts.body};
+        color: ${color("grey")};
+        font-family: ${font("body")};
+        font-size: ${font("sizeBase")};
     }
     
     ::selection {

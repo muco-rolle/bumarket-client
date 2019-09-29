@@ -1,14 +1,15 @@
 import React from "react";
 import BackOfficeLayout from "../../src/components/back-office/layouts/BackOfficeLayout";
+import AddProduct from "../../src/components/back-office/products/add-product";
 
-const AddProduct = () => {
+const AddProductPage = () => {
     return (
         <div>
-            <h1>Add Product</h1>
+            <AddProduct />
         </div>
     );
 };
 
-AddProduct.Layout = BackOfficeLayout;
+AddProductPage.Layout = BackOfficeLayout;
 
-export default AddProduct;
+export default AddProductPage;

@@ -7,8 +7,8 @@ import { GlobalStyles } from "../../styles/global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../../styles/theme";
 
-import "typeface-alegreya-sans";
-import "typeface-pacifico";
+import "typeface-eb-garamond";
+import "typeface-quicksand";
 
 const MainLayout = props => {
     return (

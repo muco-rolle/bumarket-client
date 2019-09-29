@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
     flex-wrap: wrap;
     height: 7rem;
     padding: 0 4rem;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
 `;
 
 
