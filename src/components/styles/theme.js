@@ -61,12 +61,12 @@ export const theme = {
         warningDark4: "hsl(359, 56%, 18%)",
 
         white: "hsl(0, 0%, 100%)",
-        black: "hsl(0, 0%, 5%)",
+        black: "hsl(0, 0%, 5%)"
     },
 
     fonts: {
         heading: "'Quicksand', sans-serif",
-        body: "'EB Garamond', serif",
+        body: "'Alegreya Sans', sans-serif",
 
         sizeSmallest: "1.2rem",
         sizeSmall: "1.4rem",
@@ -77,13 +77,11 @@ export const theme = {
 
         sizeLarge: "2rem",
         sizeLarge1: "2.4rem",
-        sizeLarge2: "30rem",
+        sizeLarge2: "3rem",
         sizeLarge3: "3.6rem",
         sizeLarge4: "4.8rem",
         sizeLarge5: "6rem",
         sizeLarge6: "7.2rem"
-
-
     },
 
     spaces: {
@@ -111,19 +109,17 @@ export const theme = {
         large12: "76.8rem"
     },
 
-
     screens: {
-        "xsmall": "",
-        "small": "",
-        "medium": "",
-        "large": "120rem",
-        "xlarge": ""
+        xsmall: "",
+        small: "",
+        medium: "",
+        large: "120rem",
+        xlarge: ""
     },
-
 
     shadows: {
         card: "0 1px 8px rgba(0,0,0,.1)",
-        cardHover: "0 5px 25px rgba(0,0,0,.1)",
+        cardHover: "0 5px 25px rgba(0,0,0,.1)"
     },
 
     transitions: {

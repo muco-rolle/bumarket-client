@@ -17,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
         line-height: 1.5;
         color: ${color("grey")};
         font-family: ${font("body")};
+        font-weight: 500;
         font-size: ${font("sizeBase")};
     }
     

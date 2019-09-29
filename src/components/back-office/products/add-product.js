@@ -4,14 +4,16 @@ import { useMutation } from "react-apollo";
 import InputField from "../../shared/input-field/InputField";
 import TextAreaField from "../../shared/textarea-field/TextAreaField";
 import { ADD_PRODUCT } from "../../../resolvers/mutations/add-product";
+import Form from "../../shared/form/form";
+import { Button } from "../../styles/Button";
 
 const AddProduct = () => {
     const [product, setProduct] = useState({
-        name: "Raiban",
+        name: "",
         thumbnail: "",
         image: "",
         price: 0,
-        description: "best glasses to protect your eyes"
+        description: ""
     });
 
     const [addProduct, { data }] = useMutation(ADD_PRODUCT);
@@ -51,8 +53,9 @@ const AddProduct = () => {
         const response = await addProduct({ variables: product });
         console.log(response);
     };
+
     return (
-        <form onSubmit={onSubmitHandler}>
+        <Form onSubmitHandler={onSubmitHandler} title="Add Product">
             <InputField
                 type="file"
                 placeholder="image"
@@ -92,8 +95,10 @@ const AddProduct = () => {
             ></TextAreaField>
             <br />
 
-            <button>save product</button>
-        </form>
+            <Button color="primary" type="submit">
+                save product
+            </Button>
+        </Form>
     );
 };
 

@@ -7,7 +7,7 @@ import { GlobalStyles } from "../../styles/global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../../styles/theme";
 
-import "typeface-eb-garamond";
+import "typeface-libre-baskerville";
 import "typeface-quicksand";
 
 const MainLayout = props => {

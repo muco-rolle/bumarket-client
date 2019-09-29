@@ -6,7 +6,6 @@ const BackOfficeLayout = props => {
         <section>
             <Header />
             {props.children}
-            <h5>footer</h5>
         </section>
     );
 };

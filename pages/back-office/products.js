@@ -1,18 +1,18 @@
 import React from "react";
 import Head from "next/head";
+
 import BackOfficeLayout from "../../src/components/back-office/layouts/BackOfficeLayout";
 
-const DashboardPage = () => {
+const Products = () => {
     return (
         <div>
             <Head>
-                <title>Bumarket - Dashboard</title>
+                <title>Bumarket - Products</title>
             </Head>
-            <h1>Dashboard Page</h1>
+            <h1>Products Page</h1>
         </div>
     );
 };
 
-DashboardPage.Layout = BackOfficeLayout;
-
-export default DashboardPage;
+Products.Layout = BackOfficeLayout;
+export default Products;
