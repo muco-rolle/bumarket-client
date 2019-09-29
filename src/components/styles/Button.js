@@ -1,18 +1,18 @@
 import styled, { css } from 'styled-components';
-import { color, space, font } from '../../../utils/helpers';
+import { color, space, font } from '../../utils/helpers';
 
 export const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: ${space("small3")} ${space("medium")};
+    padding: ${space("small")} ${space("large4")};
     border-width: 2px;
     border: none;
     border-radius: 3px;
-    transition: all color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: all 0.1s ease;
     margin-left: 3rem;
     border-radius: 50px;
-    font-size: ${font("sizeBase")};
+    font-size: ${font("sizeMedium")};
     font-family: inherit;
     font-weight: 800;
 
@@ -24,7 +24,7 @@ export const Button = styled.button`
 
     :hover {
         outline: none;
-        box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
     }
 
     :active {

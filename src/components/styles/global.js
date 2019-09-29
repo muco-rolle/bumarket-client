@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { color, font } from "../../../utils/helpers";
+import { color, font } from "../../utils/helpers";
 
 export const GlobalStyles = createGlobalStyle`
     *, *::before, *::after {
