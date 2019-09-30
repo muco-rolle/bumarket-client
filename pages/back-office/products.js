@@ -2,17 +2,18 @@ import React from "react";
 import Head from "next/head";
 
 import BackOfficeLayout from "../../src/components/back-office/layouts/BackOfficeLayout";
+import Products from "../../src/components/back-office/products/Products";
 
-const Products = () => {
+const ProductsPage = () => {
     return (
         <div>
             <Head>
                 <title>Bumarket - Products</title>
             </Head>
-            <h1>Products Page</h1>
+            <Products />
         </div>
     );
 };
 
-Products.Layout = BackOfficeLayout;
-export default Products;
+ProductsPage.Layout = BackOfficeLayout;
+export default ProductsPage;
