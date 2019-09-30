@@ -6,6 +6,7 @@ import TextAreaField from "../../shared/textarea-field/TextAreaField";
 import { ADD_PRODUCT } from "../../../resolvers/mutations/add-product";
 import Form from "../../shared/form/form";
 import { Button } from "../../styles/Button";
+import { useRouter } from "next/dist/client/router";
 
 const AddProduct = () => {
     const [product, setProduct] = useState({
@@ -15,6 +16,8 @@ const AddProduct = () => {
         price: 0,
         description: ""
     });
+
+    const router = useRouter();
 
     const [addProduct, { data }] = useMutation(ADD_PRODUCT);
 
@@ -51,7 +54,9 @@ const AddProduct = () => {
     const onSubmitHandler = async event => {
         event.preventDefault();
         const response = await addProduct({ variables: product });
-        console.log(response);
+
+        const id = response.data.addProduct.id;
+        router.push(`/back-office/products/${id}`);
     };
 
     return (

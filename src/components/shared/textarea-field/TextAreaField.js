@@ -14,6 +14,10 @@ const StyledTextAreaField = styled.textarea`
     font-weight: 800;
     color: inherit;
     transition: all 0.3s ease;
+    &::placeholder {
+        color: ${color("greyLight3")};
+    }
+    
     :focus {
         border-color: ${color("greyLight2")};
     }

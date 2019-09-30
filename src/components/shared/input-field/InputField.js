@@ -5,8 +5,7 @@ import { color, font, space } from "../../../utils/helpers";
 const StyledInput = styled.input`
     padding: ${space("small")} ${space("medium")};
     width: 100%;
-    /* border: 2px solid ${color("greyLight4")}; */
-    border: 1px solid #E3E3E3;
+    border: 1px solid #e3e3e3;
     border-radius: 3px;
     outline: none;
     font-family: inherit;
@@ -15,10 +14,13 @@ const StyledInput = styled.input`
     color: inherit;
     transition: all 0.3s ease;
 
+    &::placeholder {
+        color: ${color("greyLight3")};
+    }
+
     :focus {
         border-color: ${color("greyLight2")};
     }
-
 `;
 
 const InputField = props => (
