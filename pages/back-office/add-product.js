@@ -1,9 +1,8 @@
 import React from "react";
 import BackOfficeLayout from "../../src/components/back-office/layouts/BackOfficeLayout";
-import AddProduct from "../../src/components/back-office/products/add-product";
+import AddProduct from "../../src/components/back-office/products/AddProduct";
 import Head from "next/head";
 import styled from "styled-components";
-import { color } from "../../src/utils/helpers";
 
 const StyledAddProductPage = styled.section`
     display: flex;

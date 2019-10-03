@@ -1,17 +1,16 @@
 import React from "react";
 import BackOfficeLayout from "../../../src/components/back-office/layouts/BackOfficeLayout";
 import { useRouter } from "next/dist/client/router";
+import SingleProduct from "../../../src/components/back-office/products/SingleProduct";
+import styled from "styled-components";
 
-const ProductPage = () => {
+const ProductPage = props => {
     const router = useRouter();
 
-    return (
-        <div>
-            <h1>Product Page {router.query.id}</h1>
-        </div>
-    );
+    return <SingleProduct id={router.query.id} {...props} />;
 };
 
 ProductPage.Layout = BackOfficeLayout;
 
-export default ProductPage;
+const StyledProductPage = styled(ProductPage)``;
+export default StyledProductPage;

@@ -68,7 +68,6 @@ const AddProduct = () => {
                 name="image"
                 onChangeHandler={uploadFile}
             />
-            <br />
 
             <InputField
                 type="text"
@@ -78,7 +77,6 @@ const AddProduct = () => {
                 value={product.name}
                 onChangeHandler={onChangeHandler}
             />
-            <br />
 
             <InputField
                 type="number"
@@ -88,7 +86,6 @@ const AddProduct = () => {
                 value={product.price}
                 onChangeHandler={onChangeHandler}
             />
-            <br />
 
             <TextAreaField
                 placeholder="description"
@@ -98,7 +95,6 @@ const AddProduct = () => {
                 value={product.description}
                 onChangeHandler={onChangeHandler}
             ></TextAreaField>
-            <br />
 
             <Button color="primary" type="submit">
                 save product

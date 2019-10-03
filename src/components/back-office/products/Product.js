@@ -4,12 +4,44 @@ import Link from "next/link";
 import { formatMoney, space, color } from "../../../utils/helpers";
 import DeleteProduct from "./DeleteProduct";
 
-const StyledProduct = styled.article`
+const Product = props => {
+    const { id, name, thumbnail, description, price } = props;
+    return (
+        <article {...props}>
+            {thumbnail && <img src={thumbnail} alt={name} title={name} />}
+
+            <h3>
+                <Link href={`/back-office/products/${id}`}>
+                    <a>{name}</a>
+                </Link>
+            </h3>
+
+            <span>{price} FBU</span>
+
+            <p>{description}</p>
+
+            <footer>
+                <DeleteProduct id={id} />
+
+                <Link href={`/back-office/edit/${id}`}>
+                    <button>edit</button>
+                </Link>
+
+                <Link href={`/back-office/products/${id}`}>
+                    <button>view</button>
+                </Link>
+            </footer>
+        </article>
+    );
+};
+
+const StyledProduct = styled(Product)`
     display: flex;
     flex-direction: column;
     position: relative;
     box-shadow: ${({ theme }) => theme.shadows.card};
     border-radius: ${space("small3")};
+
     img {
         width: 100%;
         height: 200px;
@@ -62,8 +94,8 @@ const StyledProduct = styled.article`
         font-size: 17px;
         line-height: 1.5;
         font-weight: 400;
-        flex-grow: 1;
-        padding: 1rem 2rem;
+        flex-grow: 1 1 auto;
+        padding: 2rem 2rem;
         font-size: 2rem;
         color: ${props => props.theme.colors.greyLight1};
     }
@@ -96,35 +128,4 @@ const StyledProduct = styled.article`
         }
     }
 `;
-
-const Product = ({ id, name, thumbnail, description, price }) => {
-    return (
-        <StyledProduct>
-            {thumbnail && <img src={thumbnail} alt={name} title={name} />}
-
-            <h3>
-                <Link href={`/back-office/products/${id}`}>
-                    <a>{name}</a>
-                </Link>
-            </h3>
-
-            <span>{formatMoney(price)} FBU</span>
-
-            <p>{description}</p>
-
-            <footer>
-                <DeleteProduct />
-
-                <Link href={`/back-office/products/${id}`}>
-                    <button>edit</button>
-                </Link>
-
-                <Link href={`/back-office/products/${id}`}>
-                    <button>view</button>
-                </Link>
-            </footer>
-        </StyledProduct>
-    );
-};
-
-export default Product;
+export default StyledProduct;

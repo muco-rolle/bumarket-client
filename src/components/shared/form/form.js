@@ -13,7 +13,7 @@ const StyledForm = styled.form`
     align-items: center;
     justify-content: center;
     input {
-        margin-bottom: ${space("small")};
+        margin-bottom: ${space("large1")};
     }
 
     h3 {
@@ -23,7 +23,8 @@ const StyledForm = styled.form`
     }
 
     button {
-        text-align: center;
+        margin-top: ${space("large1")};
+        /* text-align: center; */
     }
 `;
 const Form = props => {
